@@ -1,0 +1,33 @@
+{
+  "name": "cpp-gruvbox",
+  "displayName": "Gruvbox C++",
+  "description": "gruvbox theme",
+  "version": "1.0.1",
+  "publisher": "mirko013",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MIRK013/gruvboxcpp"
+  },
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "gruvbox",
+    "gruvbox c++",
+    "pastel"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gruvbox C++",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Gruvbox C++-color-theme.json"
+      }
+    ]
+  }
+}
